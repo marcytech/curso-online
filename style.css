@@ -1,0 +1,120 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.box {
+    display: block;
+    padding: 16px;
+    float: left;
+}
+
+.banner h1 {
+    padding: 0 0 30px 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #2fc9c9;
+}
+
+.banner span {
+    color: #030303;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner img {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.coll {
+    width: 50%;
+}
+
+.coll+.coll {
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    padding-top: 15px;
+}
+
+.header,
+.header ul {
+    display: block;
+    float: right;
+}
+
+.header li,
+.header a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #647c8d;
+}
+
+.header a {
+    padding: 15px 0 15px 15px;
+    font-size: 18px;
+}
+
+.header li:last-of-type a {
+    background: #2fc9c9;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.range {
+    width: 100%;
+    background: #a3e0d7;
+    border-radius: 4px;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    background: #2fc9c9;
+    color: #ffff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.article .coll {
+    padding: 16px;
+}
+
+.article h1 {
+    padding: 0 0 32px 0;
+    font-size: 28px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.article button {
+    margin: 16px 0 0 0;
+}
